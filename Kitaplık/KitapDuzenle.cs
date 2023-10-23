@@ -56,7 +56,7 @@ namespace Kitaplık
             komut= new SqlCommand();
             con.Open();
             komut.Connection= con;
-            komut.CommandText ="insert into Kitap (KitapAd,kitapYazar,KitapFiyat) values ('"+txtAd.Text+"','"+txtYazar.Text+"','"+txtFiyat.Text+"') ";
+            komut.CommandText ="insert into Kitap (KitapAd,KitapYazar,KitapFiyat) values ('"+txtAd.Text+"','"+txtYazar.Text+"','"+txtFiyat.Text+"') ";
             komut.ExecuteNonQuery();
             con.Close();
             yenile();

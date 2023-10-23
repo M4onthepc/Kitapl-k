@@ -74,7 +74,6 @@
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(196, 27);
             this.txtAd.TabIndex = 3;
-            this.txtAd.TextChanged += new System.EventHandler(this.txtAd_TextChanged);
             // 
             // txtYazar
             // 
@@ -83,7 +82,6 @@
             this.txtYazar.Name = "txtYazar";
             this.txtYazar.Size = new System.Drawing.Size(196, 27);
             this.txtYazar.TabIndex = 4;
-            this.txtYazar.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtFiyat
             // 
@@ -92,7 +90,6 @@
             this.txtFiyat.Name = "txtFiyat";
             this.txtFiyat.Size = new System.Drawing.Size(77, 27);
             this.txtFiyat.TabIndex = 5;
-            this.txtFiyat.TextChanged += new System.EventHandler(this.txtFiyat_TextChanged);
             // 
             // btnKayıt
             // 
